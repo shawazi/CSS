@@ -39,6 +39,10 @@ h1 {
     margin-top: 50px;
 }
 
+#yellowSpan {
+    color:yellow;
+}
+
 #clock {
     text-align: center;
 }
@@ -48,10 +52,41 @@ img {
     width: auto;
 }
 
-#yellowSpan {
-    color:yellow;
-}
-
 .red {
     color: red;
+}
+
+table {
+    margin: auto;
+    background-color: yellow;
+}
+
+th, td {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+th {
+    color: blue;
+}
+
+.sunday {
+    background-color: rgb(81, 164, 81);
+    color: black;
+}
+
+#clean {
+    color: orange;
+    background-color: olive;
+}
+
+.js {
+    background-color: purple;
+    color: aqua;
+}
+
+.css {
+    background-color: aqua;
+    color: navy;
 }
