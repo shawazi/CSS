@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font</title>
+    <style>
+        #font1{
+            font-family: cursive;
+        }
+        #font2{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #font3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #font4{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #font5{
+            font-style: italic;
+        }
+        #font6{
+            font-style: oblique;
+        }
+        #font7{
+            font-style: normal;
+        }
+        #size{
+            font-size: 2px;
+        }
+        #size1{
+            font-size: 175%;
+        }
+        #size2{
+            font-size: 1rem;
+        }
+        #sec4{
+            font-size: 10px;
+        }
+        #size3{
+            font-size: 2vw;
+        }
+        #w81{
+            font-weight: none;
+        }
+        #w82{
+            font-weight: bold;
+        }
+        #w83{
+            font-weight: bolder;
+        }
+        #w84{
+            font-weight: 100;
+        }
+        #w85{
+            font-weight: lighter;
+        }
+        a:link{
+            color: blue;
+        }
+        a:hover{
+            color: violet;
+            text-shadow: 2px 4px 4px darkviolet;
+        }
+        a:visited{
+            color: rgb(red, green, rgb(3, 3, 80));
+            font-style: italic;
+        }
+        a:active{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h3> Font Family Property </h3>
+        <p id="font1"> This is a paragraph. </p>
+        <p id="font2"> This is a paragraph. </p>
+        <p id="font3"> This is a paragraph. </p>
+        <p id="font4"> This is a paragraph. </p>
+    </section>
+    <hr>
+    <section>
+        <h3> Font Style Property </h3>
+        <p id="font5"> This is a paragraph. </p>
+        <p id="font6"> This is a paragraph. </p>
+        <p id="font7"> This is a paragraph. </p>
+    </section>
+    <hr>
+    <section>
+        <h3> Font Size Property </h3>
+        <p id="size"> This is a paragraph at 2px </p>
+        <p id="size1"> This is a paragraph at 175% </p>
+        <p id="size2"> This is a paragraph relative to the root element </p>
+        <p id="size3">This is a paragraph relative to the viewport </p>
+    </section>
+    <hr>
+    <section id="sec4">
+        <h3> Lists, consequences of "em" font sizing</h3>
+        <h5> ul{
+            font-size: 2em;
+        }
+        li{
+            font-size: 2em;
+        }
+        a{
+            font-size: 2em; </h5>
+        <ul>
+            <li><a href="#">Link Text</a></li>
+            <li><a href="#">Link Text</a></li>
+        </ul>
+    </section>
+    <hr>
+    <section>
+        <h3> Font Weight </h3>
+        <h1> This is a heading level 1</h1>
+        <p id="w81"> This is without weight </p>
+        <p id="w82"> This is with weight </p>
+        <p id="w83"> This is with more weight </p>
+        <p id="w84"> This is with a precise weight </p>
+        <p id="w85"> This is with lighter weight </p>
+    </section>
+    <hr>
+    <section>
+        <h3> Font Variant</h3>
+        <h5 style="font-variant: small-caps"> Displays text in a small-caps font. All lowercase letters are converted to uppercase letters but in smaller font size. Like Death from Terry Pratchett. </h5>
+    </section>
+    <hr>
+    <section>
+        <h3> CSS Links </h3>
+        <h5> Any property can be used to style links.</h5>
+        <h6> Four States </h6>
+        <ul>
+            <li><a href="#">Normal</a></li>
+            <li><a href="#">Visited</a></li>
+            <li><a href="#">Hover</a></li>
+            <li><a href="#">Active</a></li>
+        </ul>
+    </section>
+</body>
+</html>

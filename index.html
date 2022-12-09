@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <!-- external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- internal stylesheet -->
+    <style>
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        p{
+            background-color:aqua;
+        }
+        h1{
+            background-color:rgb(227, 86, 86)
+        }
+
+        /* class selector:*/
+        /* class with name of class */
+        .center{
+            text-align: center;
+        }
+        .blue{
+            color:blue;
+        }
+        #paragraph1{
+            color:blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="color:black">Shawaz's Website</h1>
+    <h1 class="center" id="title">Shawaz's website, again</h1>
+    <!-- <h1 id="title"> Shawaz's website, again AGAIN</h1> -->
+    <!-- inline...
+         style: -->
+    <!-- (style attribute) is unique to the specific element the styles are applied to-->   
+    <p style="color:red; font-size: 24px;">This is some random text from my website!</p>
+    <p>This is a different paragraph element</p>
+    <p class="center blue">This is an entirely different paragraph element</p>
+    <p class="center">This is an entirely different paragraph element</p>
+    <p class="blue">This is an entirely different paragraph element</p>
+    <p id="paragraph1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, veniam.</p>
+    <!-- Script tag should go after all other webpage elements -->
+    <script></script>
+</body>
+</html>
